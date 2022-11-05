@@ -1,7 +1,114 @@
+:root{
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--white-color:#ffffff;
+--color-bg-footer:#2F303A;
+--color-about:#F5F4FA;
+}
+body{
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
 
-/* color pages */
-/* color blue #2196F3 */
-/* color black1 #212121 */
-/* color black2 #757575 */
-/* color black3 #000000 */
-/* color white #FFFFFF */
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.list a{
+    text-decoration: none;
+}
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* синий цвет #2196F3 */
+/* цвет телефона и email футере rgba(255, 255, 255, 0.6); */
+/* белый цвет #ffffff */
+/* цвет лого в header #000000 */
+/* цвет футера и мейн #2F303A; */
+/* цвет секции о нас  #F5F4FA */
+
+ /* шапка сайта с навигацией  */
+ /* логотип */
+ .logo{
+    color: #000000;
+    font-family:'Raleway', sans-serif;
+ }
+ .logo span{
+    color: var(--accent-color);
+ }
+ /* блок навигации */
+
+.site-nav .link{
+    color:var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* блок адреса и телефона */
+.address-nav .link{
+    color: var(--primary-text-color);
+    
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus{
+    color: var(--accent-color);
+}
+/* блок майн */
+/* блок секция */
+/* Deskription */
+.deskription{
+    background-color: var(--color-bg-footer);
+}
+.deskription-title{
+    color: var(--white-color);
+    background-color: var(--color-bg-footer);
+}
+.button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* цвет заголовков всех секций */
+.section-title{
+    color: var(--title-text-color);
+}
+
+/* feature */
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+/* about */
+.about{
+    background-color:var(--color-about) ;
+}
+.about-list .title{
+    color:var(--title-text-color)
+}
+
+/* footer */
+.footer{
+    background-color:var(--color-bg-footer);
+}
+.footer-logo{
+    color: var(--white-color);
+    font-family:'Raleway', sans-serif;
+}
+.footer-logo span{
+    color: var(--accent-color);
+}
+.address-lst .title{
+    color: var(--white-color);
+}
+
+.address-list .link{
+    color:rgba(255, 255, 255, 0.6); 
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
+}
