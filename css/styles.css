@@ -15,14 +15,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .list {
   list-style: none;
 }
-
-.link {
-  text-decoration: none;
-}
-
 /* цвет основного текста #757575 */
 /* вторичный цвет текста #212121 */
 /* синий цвет #2196F3 */
@@ -192,7 +192,7 @@ body {
 
 .btn {
   color: var(--title-text-color);
-  background-color: var(--white-color);
+  background-color: var(--color-about);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -209,7 +209,18 @@ body {
   color: var(--title-text-color);
   background-color: var(--color-about);
 }
-
+.section-filtr .btn:hover,
+.section-filtr .btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* стили карточек */
+.portfolio-list .wrapper {
+  font-size: 16px;
+}
 .portfolio-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
