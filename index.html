@@ -9,14 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <title>WebStudio Студия</title>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <!-- шапка сайта с навигацией -->
-  <header>
-    <nav>
+  <header class="page-header">
+ <div class="container">
+    <nav class="main-nav">
       <a href="./index.html" class="logo link">
         <p lang="en"><span>Web</span>Studio</p>
       </a>
@@ -27,19 +29,24 @@
         <li> <a href="" class="link">Контакти</a></li>
       </ul>
     </nav>
+  
     <ul class="address-nav list">
       <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
       <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
     </ul>
+  </div>
   </header>
   <main>
     <!-- секция 1 с фото рекламы -->
     <section class="deskription">
+      <div class="containet">
       <h1 class="deskription-title">Ефективні рішення для вашого бізнесу</h1>
       <button type="button" class="deskription-button link">Замовити послугу</button>
+    </div>
     </section>
     <!-- секция с описанием работы -->
     <section class="section">
+      <div class="container">
       <!-- скрить заголовок -->
       <h2 class="section-title hide">особливості</h2>
       <ul class="feature-list list">
@@ -71,9 +78,11 @@
           </p>
         </li>
       </ul>
+    </div>
     </section>
     <!-- секция с примерами работы -->
     <section class="section">
+      <div class="container">
       <h2 class="section-title">Чим ми займаємося</h2>
       <ul class="work list">
         <li>
@@ -86,9 +95,11 @@
           <img src="./images/box3.jpg" alt="Розробка для планшетыв" width="370">
         </li>
       </ul>
+    </div>
     </section>
     <!-- секция  о нас -->
-    <section class="about">
+    <section class="section about">
+      <div class="container ">
       <h2 class="section-title">Наша команда</h2>
       <ul class="about-list list">
         <li>
@@ -112,11 +123,13 @@
           <p lang="en">UI Designer</p>
         </li>
       </ul>
+    </div>
     </section>
   </main>
   <!-- футер -->
   <footer class="footer">
     <!-- <section> -->
+      <div class="container">
     <a href="./index.html" class="footer-logo link"><span>Web</span>Studio</a>
     <address class="address-list">
       <p>м. Київ, пр-т Лесі Українки, 26</p>
@@ -125,6 +138,7 @@
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </address>
+  </div>
     <!-- </section> -->
   </footer>
 </body>
